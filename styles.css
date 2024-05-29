@@ -1,0 +1,143 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ebe1e1;
+    text-transform: uppercase;
+    background-image: url("img/ucl_branding.jpeg");
+}
+
+header {
+    text-align: center;
+}
+
+
+h1 {
+    
+    color: #e2e7ec;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #009688;
+}
+
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color:#ebe1e1;
+}
+
+
+footer {
+    background-color: #333333;
+    color:#00796b;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333333; 
+    padding: 10px 20px 10px 10px; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px; 
+}
+
+.navbar a:last-child {
+    margin-right: 0; 
+}
+
+.navbar a:hover {
+    background-color: #0b2947;
+}
+
+
+.content {
+    max-width: 800px;
+   
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+.btn {
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #00796b;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1000px; 
+    margin-top: 40px;
+}
+
+.travel-image {
+    width: 300px; 
+    height: 300px;
+    border-radius: 10px; 
+    transition: transform 0.3s; 
+    cursor: pointer;
+}
+
+.travel-image:hover {
+    transform: scale(1.1); /
+}
+
+video{
+    width: 380px;
+    height: 380px;
+    
+  }
